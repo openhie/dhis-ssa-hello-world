@@ -1,0 +1,11 @@
+{
+  "name": "dhis-ssa-hello-world",
+  "version": "1.0.0",
+  "description": "DHIS Server Side App - Hello World",
+  "main": "ssa/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

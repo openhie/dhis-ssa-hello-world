@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "name": "DHIS2 Server-Side App Hello World",
+  "description": "Hello World Server Side App",
+  "launch_path": "ssa/index.js",
+  "developer": {
+    "name": "Carl Leitner <litlfred@gmail.com>",
+    "url": "http://github.com/litlfred/dhis-web-hello-world"
+  },
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "*"
+    }
+  },
+  "script-library": {
+    "dependencies": {}
+  }
+}
