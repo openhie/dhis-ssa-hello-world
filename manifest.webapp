@@ -14,6 +14,10 @@
     }
   },
   "script-library": {
-    "dependencies": {}
+    "dependencies": {
+      "ssa/examples/systemInfo.js": [
+        "/apps/dhis-ssa-core-services/lib/SystemInfo.js"
+      ]
+    }
   }
 }
