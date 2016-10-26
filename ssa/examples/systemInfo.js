@@ -7,12 +7,6 @@ function display(content) {
     dhisScriptContext.out.write(html);  // Global variable!
 }
 
-var global_count;
-if (isNaN(global_count)) {
-    global_count =0;
-} else {
-    global_count++;
-}
 sysInfo = new SystemInfo(dhisScriptContext);
-out = JSON.stringify(sysInfo.getData("json"),null,'\t');
+out = JSON.stringify(sysInfo.getData("string"),null,'\t');
 display(out);
