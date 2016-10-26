@@ -8,5 +8,6 @@ function display(content) {
 }
 
 dhisScriptContext.logInfo("Saying hello in the log");
-dhisScriptContext.logInfo({'some':'data','structure':[]});
+dhisScriptContext.logInfo(JSON.stringify({'some':'data','structure':[]},null,"\t"));
+dhisScriptContext.logInfo("Script Execution context = " + dhisScriptContext);
 display("sent data to log");

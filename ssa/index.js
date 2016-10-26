@@ -16,6 +16,10 @@ function display(content) {
 	+ '  Extracting DHIS2 System info <a href="examples/systemInfo.js">examples/sytemInfo.js</a>'
 	+ '  <a href="https://github.com/openhie/dhis-ssa-hello-world/blob/master/ssa/examples/systemInfo.js">(Source)</a>'
 	+ '  </li>'
+	+ ' <li>'
+	+ '  Extracting DHIS2 Logging <a href="examples/logging.js">examples/logging.js</a>'
+	+ '  <a href="https://github.com/openhie/dhis-ssa-hello-world/blob/master/ssa/examples/logging.js">(Source)</a>'
+	+ '  </li>'
 	+ '</ul>'
         + '</p>'
 	+ '</body></html>';
