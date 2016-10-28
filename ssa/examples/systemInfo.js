@@ -8,5 +8,7 @@ function display(content) {
 }
 
 sysInfo = new SystemInfo(dhisScriptContext);
-out = JSON.stringify(sysInfo.getData("string"),null,'\t');
+out = JSON.stringify(sysInfo.getData("json"),null,'\t');
 display(out);
+
+

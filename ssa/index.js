@@ -26,6 +26,5 @@ function display(content) {
     dhisScriptContext.out.write(html);  // Global variable!
 }
 
-
 out = "Hello World";
 display(out);
